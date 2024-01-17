@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    display: inline-block;
+    color: #ecf0f1;
+    margin: 0;
+    font-size: 68px
+  }
+  
+  .sensor-data {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    border-radius: 90px;
+    box-shadow: 0 0 10px rgba(135, 206, 250, 0.5);
+    margin-bottom: 500px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    width: 100%;
+    background-color: #ecf0f1;
+  }
+  
+  #water-bar {
+    height: 20px;
+    width: 100%;
+    background-color: #ecf0f1;
+    color: #000; 
+  }
+  
+  #water-bar-chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #2c3e50;
+  }
+  
+  #water-bars {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    background-color: #ecf0f1;
+  }
+  
+  .bar-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-text {
+    font-size: 12px;
+    color: #ecf0f1;
+    margin-bottom: 5px;
+  }
+  
+  /* Barras de progreso lineales */
+  .linear-progress {
+    height: 20px;
+    width: 100%;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .linear-progress .progress-bar {
+    height: 100%;
+    width: 20%; /* Ajusta según tus necesidades */
+    background-color: #e74c3c; /* Rojo por defecto */
+  }
+  
+  /* Cambia a verde si el indicador es mayor al 20% */
+  .linear-progress .progress-bar.green {
+    background-color: #2ecc71; /* Verde */
+  }
+
+  .large-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 500px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Para mantener la proporción original */
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .spinach-section {
+    position: fixed;
+    bottom: 120px; /* Ajusta la posición vertical según tus necesidades */
+    left: 55%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta para centrar completamente */
+    text-align: left;
+    margin: 20px;
+    color: #ecf0f1;
+  }
+  
+  .spinach-section h2 {
+    margin: 0;
+    font-size: 38px
+  }
+
+  .spinach-section p {
+    margin: 10px 0; /* Ajusta los márgenes según tus necesidades */
+    color: #ecf0f1;
+    text-align: left;
+    font-size: 28px;
+  }
+  
+  
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartGarden v2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <img src="logo.png" alt="Logo SmartGarden" class="logo">
+    <h1>SmartGarden v2</h1>
+  </div>
+
+  <div class="container">
+    <div class="sensor-data" id="humidity">
+      <h2>Humedad</h2>
+      <p id="humidity-value">Cargando...</p>
+      <div class="linear-progress" id="humidity-bar">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <div class="sensor-data" id="light">
+      <h2>Luz</h2>
+      <p id="light-value">Cargando...</p>
+      <div class="linear-progress" id="light-bar">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <div class="sensor-data" id="fertilizer">
+      <h2>Fertilizante</h2>
+      <p id="fertilizer-value">Cargando...</p>
+      <div class="linear-progress" id="fertilizer-bar">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <div class="sensor-data" id="water">
+      <h2>Estado del Agua</h2>
+      <p id="water-value"></p>
+      <div class="progress-bar" id="water-bar"></div>
+    </div>
+  </div>
+
+  <img src="lechuga.png" alt="Imagen Grande" class="large-image">
+  
+  <div class="spinach-section">
+    <h2>Espinacas:</h2>
+    <p>La espinaca es una verdura de hojas verdes rica en nutrientes como hierro, calcio y vitaminas A y C.<br>
+        Sus beneficios incluyen el apoyo a la salud ósea, la mejora de la visión y la promoción de la salud cardiovascular. <br>
+    </p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
